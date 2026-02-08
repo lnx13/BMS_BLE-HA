@@ -22,6 +22,11 @@
     }
   },
   "entity": {
+    "button": {
+      "reset_software_lock": {
+        "name": "Reset software lock"
+      }
+    },
     "binary_sensor": {
       "balancer": {
         "name": "Balancer"

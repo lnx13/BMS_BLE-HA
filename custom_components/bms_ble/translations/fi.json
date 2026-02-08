@@ -27,6 +27,11 @@
     }
   },
   "entity": {
+    "button": {
+      "reset_software_lock": {
+        "name": "Nollaa ohjelmistolukitus"
+      }
+    },
     "binary_sensor": {
       "balancer": {
         "name": "Tasapainottaja"

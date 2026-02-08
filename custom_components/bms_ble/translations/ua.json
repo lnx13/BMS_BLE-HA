@@ -27,6 +27,11 @@
     }
   },
   "entity": {
+    "button": {
+      "reset_software_lock": {
+        "name": "Скинути програмне блокування"
+      }
+    },
     "binary_sensor": {
       "balancer": {
         "name": "Балансувальник"

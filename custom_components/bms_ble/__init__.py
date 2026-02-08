@@ -19,7 +19,11 @@ from .config_flow import ConfigFlow
 from .const import DOMAIN, LOGGER
 from .coordinator import BTBmsCoordinator
 
-PLATFORMS: list[Platform] = [Platform.BINARY_SENSOR, Platform.SENSOR]
+PLATFORMS: list[Platform] = [
+    Platform.BINARY_SENSOR,
+    Platform.BUTTON,
+    Platform.SENSOR,
+]
 
 type BTBmsConfigEntry = ConfigEntry[BTBmsCoordinator]
 
